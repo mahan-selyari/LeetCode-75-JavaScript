@@ -37,6 +37,7 @@ for (let i = 0; i < minLength; i++) {
     result.push(word1[i], word2[i]);
 }
 result.push(word1.slice(minLength), word2.slice(minLength));
+```
 ⏱️ Complexity Analysis
 Time Complexity: 
 O
