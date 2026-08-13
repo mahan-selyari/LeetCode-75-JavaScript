@@ -4,23 +4,22 @@
  * @return {string}
  */
 var gcdOfStrings = function(str1, str2) {
-    let moshtarak=[]
-    let no=""
-   let firstArray=[]
+    let divisors=[]
+   let commonDivisors=[]
     for(let i = 1;i<=str1.length;i++){
         if(str1.length % i==0){
-            firstArray.push(i)
+            divisors.push(i)
         }
     }
     for(let i = 1;i<=str2.length;i++){
-        if(str2.length % i == 0 && firstArray.includes(i)){
-            moshtarak.push(i)
+        if(str2.length % i == 0 && divisors.includes(i)){
+            commonDivisors.push(i)
         }
     }
-let gcd = moshtarak[moshtarak.length-1]
+let gcd = commonDivisors[commonDivisors.length-1]
 
     if(str1+str2===str2+str1){
       return str2.substring(0,gcd)
     }else{
-        return no
+        return ""
     }};
