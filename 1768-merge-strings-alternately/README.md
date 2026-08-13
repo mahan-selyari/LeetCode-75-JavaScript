@@ -44,6 +44,7 @@ merged: a p b q c   d
 	<li><code>word1</code> and <code>word2</code> consist of lowercase English letters.</li>
 </ul>
 ---
+
 ### 🧠 Approach & Logic
 For a detailed explanation of my thought process, the challenges I faced, and the final optimized solution, please refer to my notes:
 👉 [Read My Implementation Journey](./Approach.md)
