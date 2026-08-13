@@ -57,28 +57,6 @@ N
 M
 )
 O(N+M)
-⏱️ Complexity Analysis
-Time Complexity: 
-O
-(
-N
-+
-M
-)
-O(N+M)
- — This is the best possible complexity because we must visit every character at least once.
-Space Complexity: 
-O
-(
-N
-+
-M
-)
-O(N+M)
- — To store the final merged string.
-💡 Key Takeaway
-This problem was less about the complexity of the algorithm and more about adapting to a new environment and revisiting fundamental JS methods like .push(), .join(), and Math.max(). It was a great first step!
-
  — To store the final merged string.
 💡 Key Takeaway
 This problem was less about the complexity of the algorithm and more about adapting to a new environment and revisiting fundamental JS methods like .push(), .join(), and Math.max(). It was a great first step!
