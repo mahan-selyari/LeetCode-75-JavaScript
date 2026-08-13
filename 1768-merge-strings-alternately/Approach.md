@@ -31,6 +31,7 @@ Instead of looping until the very end of the longest string and using `if` check
 - **Why?** This avoids redundant `if (i < word.length)` checks once one of the strings is already finished.
 
 Example of the optimized logic:
+
 ```javascript
 const minLength = Math.min(word1.length, word2.length);
 for (let i = 0; i < minLength; i++) {
