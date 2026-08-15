@@ -3,9 +3,9 @@
 This repository tracks my progress through the official **LeetCode 75** study plan. I focus on clean JavaScript implementations, detailed logic breakdowns, and mastering Data Structures & Algorithms.
 
 ## 📊 Progress Tracker
-- **Total Progress:** 2 / 75 Solved
-- **Current Status:** `[▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]`
-
+- **Total Progress:** 4 / 75 Solved
+- - **Current Status:** `[▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]` (4 / 75)
+- **Difficulty Distribution:** 🟢 Easy: 4 | 🟡 Medium: 0 | 🔴 Hard: 0
 ---
 
 ## 📚 Problem List by Category
@@ -15,8 +15,8 @@ This repository tracks my progress through the official **LeetCode 75** study pl
 |:---:|:---|:---:|:---:|
 | 1 | 1768. Merge Strings Alternately | 🟢 Easy | [Solution & Approach](./1768-merge-strings-alternately/) |
 | 2 | 1071. Greatest Common Divisor of Strings | 🟢 Easy | [Solution & Approach](./1071-greatest-common-divisor-of-strings/) |
-| 3 | 1431. Kids With the Greatest Number of Candies | 🟢 Easy | *Upcoming* |
-| 4 | 605. Can Place Flowers | 🟢 Easy | *Upcoming* |
+| 3 | 1431. Kids With the Greatest Number of Candies | 🟢 Easy | [Solution & Approach](./1431-kids-with-the-greatest-number-of-candies/) |
+| 4 | 605. Can Place Flowers | 🟢 Easy | [Solution & Approach](./605-can-place-flowers/) |
 | 5 | 345. Reverse Vowels of a String | 🟢 Easy | *Upcoming* |
 | 6 | 151. Reverse Words in a String | 🟡 Medium | *Upcoming* |
 | 7 | 238. Product of Array Except Self | 🟡 Medium | *Upcoming* |
