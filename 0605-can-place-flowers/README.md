@@ -19,6 +19,7 @@
 	<li>There are no two adjacent flowers in <code>flowerbed</code>.</li>
 	<li><code>0 &lt;= n &lt;= flowerbed.length</code></li>
 </ul>
+
 ### 🧠 Approach & Logic
 For a detailed explanation of my thought process, the challenges I faced, and the final optimized solution, please refer to my notes:
 👉 [Read My Implementation Journey](./Approach.md)
