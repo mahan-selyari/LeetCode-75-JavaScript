@@ -43,3 +43,5 @@ Kid 1 will always have the greatest number of candies, even if a different kid i
 	<li><code>1 &lt;= candies[i] &lt;= 100</code></li>
 	<li><code>1 &lt;= extraCandies &lt;= 50</code></li>
 </ul>
+
+`👉 [Read my approach and logic here](./Approach.md)`
