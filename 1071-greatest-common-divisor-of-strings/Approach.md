@@ -33,8 +33,8 @@ const getGcd = (a, b) => (b === 0 ? a : getGcd(b, a % b));
 I plan to use this optimized mathematical approach in future problems involving GCD.
 
 ### ⏱️ Complexity Analysis
-- **Time Complexity:** `O(N + M + N√N)` in the worst case for the submitted implementation, where `N` and `M` are the lengths of the strings. The `N√N` term comes from checking the divisors of `str1.length` and validating candidate patterns; string concatenation/comparison can also cost `O(N + M)`.
-- **Space Complexity:** `O(√N)` auxiliary space in the worst case, for storing the divisors of `str1.length`, excluding the returned substring.
+- **Time Complexity:** `O(N + M√N)` in the worst case for the submitted implementation, where `N` and `M` are the lengths of `str1` and `str2`. The first loop checks all `N` possible divisors. In the second loop, `divisors.includes(i)` can take up to `O(√N)` time because `divisors` contains at most `O(√N)` divisors, and this check can be performed up to `M` times. The final string concatenation and comparison add `O(N + M)`.
+- **Space Complexity:** `O(√N)` auxiliary space in the worst case, because `divisors` and `commonDivisors` store the divisors of `str1.length` and the common divisors, respectively. This excludes the returned substring and temporary string-operation space.
 
 ### 💡 Key Takeaway
 This problem taught me that a "brute-force" start is okay, but looking for mathematical properties (like symmetry and GCD) is what leads to elegant and efficient code.
