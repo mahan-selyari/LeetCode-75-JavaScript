@@ -44,5 +44,6 @@ Kid 1 will always have the greatest number of candies, even if a different kid i
 	<li><code>1 &lt;= extraCandies &lt;= 50</code></li>
 </ul>
 
-🧠 Approach & Logic
-For a detailed explanation of my thought process, the challenges I faced, and the final optimized solution, please refer to my notes: 👉 Read My Implementation Journey(./Approach.md)
+### 🧠 Approach & Logic
+For a detailed explanation of my thought process, the challenges I faced, and the final optimized solution, please refer to my notes:
+👉 [Read My Implementation Journey](./Approach.md)
