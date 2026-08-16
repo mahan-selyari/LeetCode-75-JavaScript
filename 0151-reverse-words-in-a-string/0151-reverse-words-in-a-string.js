@@ -3,7 +3,7 @@
  * @return {string}
  */
 var reverseWords = function(s) {
-    let result = s.trim().split(" ").filter(s=>s!=="").reverse().join(" ")
+    let result = s.trim().split(" ").filter(s=>s!=="").reverse().join(" ");
     
     return result
 };
