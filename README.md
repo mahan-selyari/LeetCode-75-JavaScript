@@ -3,9 +3,9 @@
 This repository tracks my progress through the official **LeetCode 75** study plan. I focus on clean JavaScript implementations, detailed logic breakdowns, and mastering Data Structures & Algorithms.
 
 ## 📊 Progress Tracker
-- **Total Progress:** 6 / 75 Solved
-- **Current Status:** `[▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]` (6 / 75)
-- **Difficulty Distribution:** 🟢 Easy: 5 | 🟡 Medium: 1 | 🔴 Hard: 0
+- **Total Progress:** 8 / 75 Solved
+- **Current Status:** `[▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]` (8 / 75)
+- **Difficulty Distribution:** 🟢 Easy: 5 | 🟡 Medium: 3 | 🔴 Hard: 0
 ---
 
 ## 📚 Problem List by Category
@@ -19,8 +19,8 @@ This repository tracks my progress through the official **LeetCode 75** study pl
 | 4 | 605. Can Place Flowers | 🟢 Easy | [Solution & Approach](./0605-can-place-flowers/) |
 | 5 | 345. Reverse Vowels of a String | 🟢 Easy | [Solution & Approach](./0345-reverse-vowels-of-a-string/) |
 | 6 | 151. Reverse Words in a String | 🟡 Medium | [Solution & Approach](./0151-reverse-words-in-a-string/) |
-| 7 | 238. Product of Array Except Self | 🟡 Medium | *Upcoming* |
-| 8 | 334. Increasing Triplet Subsequence | 🟡 Medium | *Upcoming* |
+| 7 | 238. Product of Array Except Self | 🟡 Medium | [Solution & Approach](./0238-product-of-array-except-self/) |
+| 8 | 334. Increasing Triplet Subsequence | 🟡 Medium | [Solution & Approach](./0334-increasing-triplet-subsequence/) |
 | 9 | 443. String Compression | 🟡 Medium | *Upcoming* |
 
 ### 2️⃣ Two Pointers (4 Problems)
