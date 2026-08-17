@@ -1,6 +1,6 @@
 # 📝 My Approach & Learning Journey
 
-This problem took me about **[time]** to solve. The main challenge was understanding how to find an increasing triplet while preserving the order of the elements and achieving the required `O(n)` time and `O(1)` space complexity.
+This problem took me about **50 minutes** to solve. The main challenge was understanding how to find an increasing triplet while preserving the order of the elements and achieving the required `O(n)` time and `O(1)` space complexity.
 
 ### 1. Initial Idea: Find Three Minimum Values
 
