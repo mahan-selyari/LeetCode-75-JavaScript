@@ -33,5 +33,8 @@
 	<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>
 </ul>
 
-<p>&nbsp;</p>
-<strong>Follow up:</strong> Could you implement a solution that runs in <code>O(n)</code> time complexity and <code>O(1)</code> space complexity?
+<p><strong>Follow-up:</strong> Could you implement a solution that runs in <code>O(n)</code> time complexity and <code>O(1)</code> space complexity?</p>
+
+### 🧠 Approach & Logic
+For a detailed explanation of my thought process, the challenges I faced, the different approaches I tried, and the final optimized solution, please refer to my notes:
+👉 [Read My Implementation Journey](./Approach.md)
