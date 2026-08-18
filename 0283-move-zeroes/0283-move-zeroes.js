@@ -8,7 +8,7 @@ var moveZeroes = function(nums) {
     let right = 1;
     while(i < nums.length){
         if (nums[left] === 0){
-            if(nums[right] !== 0 && right < nums.length){
+            if(right < nums.length && nums[right] !== 0){
                 [nums[left], nums[right]] = [nums[right], nums[left]]
                 left++;
                 right++;
