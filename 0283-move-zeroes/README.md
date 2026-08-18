@@ -20,3 +20,7 @@
 
 <p>&nbsp;</p>
 <strong>Follow up:</strong> Could you minimize the total number of operations done?
+
+<h3>🧠 Approach &amp; Logic</h3>
+<p>For a detailed explanation of my thought process, the mistakes I made, the pointer issues I encountered, and the final optimized solution, see my notes:</p>
+<p>👉 <a href="./Approach.md">Read My Implementation Journey</a></p>
