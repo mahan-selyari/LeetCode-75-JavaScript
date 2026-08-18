@@ -48,14 +48,14 @@ The logic was correct, but I changed the variable names to make the two pointers
 
 Instead of:
 
-```js
+```text
 sLeft
  i
 ```
 
 I used:
 
-```js
+```text
 sIndex
  tIndex
 ```
@@ -92,53 +92,13 @@ t: a h b g d c
 
 `tIndex` moves through every character of `t`.
 
-When it finds `a`, it matches `s[sIndex]`, so:
-
-```js
-sIndex++;
-```
-
-Now we are looking for `b`.
+When it finds `a`, it matches `s[sIndex]`, so `sIndex` moves forward. Now we are looking for `b`.
 
 The same process continues until all characters of `s` have been found in order.
 
-At the end:
+At the end, `sIndex === s.length` means every character of `s` was successfully matched.
 
-```js
-sIndex === s.length
-```
-
-means every character of `s` was successfully matched.
-
-## 5. Final Solution
-
-```js
-var isSubsequence = function(s, t) {
-    let sIndex = 0;
-
-    for (let tIndex = 0; tIndex < t.length; tIndex++) {
-        if (s[sIndex] === t[tIndex]) {
-            sIndex++;
-        }
-    }
-
-    return sIndex === s.length;
-};
-```
-
-### Why this works
-
-`tIndex` scans the entire `t` string from left to right.
-
-`sIndex` only moves when the next required character from `s` is found.
-
-Because `sIndex` never moves backward, the characters of `s` are matched in their required order.
-
-If `sIndex` reaches `s.length`, every character from `s` has been matched and the answer is `true`.
-
-Otherwise, at least one character from `s` could not be found in the correct order, so the answer is `false`.
-
-## 6. Important Edge Case
+## 5. Important Edge Case
 
 If `s` is empty:
 
@@ -147,16 +107,9 @@ s = ""
 t = "abc"
 ```
 
-then:
+then `sIndex === s.length` is `0 === 0`, so the function correctly returns `true`.
 
-```js
-sIndex === s.length
-0 === 0
-```
-
-so the function correctly returns `true`.
-
-## 7. Complexity Analysis
+## 6. Complexity Analysis
 
 The loop scans `t` once:
 
@@ -170,7 +123,7 @@ Only two index variables are used:
 Space Complexity: O(1)
 ```
 
-## 8. What I Learned
+## 7. What I Learned
 
 This problem helped reinforce the Two Pointers pattern.
 
