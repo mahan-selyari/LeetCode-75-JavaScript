@@ -3,13 +3,13 @@
  * @return {number}
  */
 var largestAltitude = function(gain) {
-    let height = 0;
-    let max = 0;
+    let currentAltitudeht = 0;
+    let highestAltitude = 0;
     for(let i of gain){
-        height += i;
-        if(height > max){
-            max = height;
+        currentAltitudeht += i;
+        if(currentAltitudeht > highestAltitude){
+            highestAltitude = currentAltitudeht;
         }
     }
-    return max;
+    return highestAltitude;
 };
